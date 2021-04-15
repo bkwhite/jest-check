@@ -2,9 +2,10 @@
   "name": "jest-check",
   "version": "1.0.0",
   "description": "Jest check!",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc && ncc build -C",
+    "start": "ncc build -m -s && node dist/index.js"
   },
   "repository": {
     "type": "git",
