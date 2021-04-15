@@ -1,4 +1,4 @@
-name: "jest-check-run"
+name: "jest-check-run-test"
 description: "Adds output from Jest tests to the details of a check run"
 author: "bkwhite"
 branding:
